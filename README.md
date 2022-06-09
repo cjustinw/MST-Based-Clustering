@@ -10,7 +10,14 @@ Pada tugas ini, kalian akan diminta untuk membuat suatu website yang dapat menye
   
 ![](img/MST-Based-Clustering.png)
 <br>
-MST-Based Clustering
+**Fig 1.** Contoh Clustering
+<br>
+
+![](img/MST-Based-Clustering-2.png)
+<br>
+**Fig 2.** Algoritma MST-Based Clustering
+<br>
+
 </div>
 
 ## Spesifikasi Wajib (2250 poin)
