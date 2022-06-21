@@ -1,5 +1,11 @@
 # MST-Based Clustering
 
+Versi **21 Juni 2022**
+
+Changelog:
+- Batasan algoritma MST-Kruskal di spek wajib
+- Menambahkan analisis kompleksitas algoritma di readme
+
 ## Latar Belakang
 
 MST-Based Clustering merupakan salah satu algoritma unsupervised pada machine learning yang banyak digunakan. Jika diberikan sebuah dataset dengan n buah titik random, algoritma ini akan membangun sebuah Minimum Spanning Tree (MST), kemudian melakukan pengelompokkan data dengan cara memotong sisi MST mulai dari sisi dengan bobot terbesar. Jumlah sisi yang dipotong menentukan jumlah cluster yang akan dibuat, untuk setiap n cluster akan ada n-1 pemotongan sisi mulai dari sisi dengan bobot terbesar.
@@ -27,20 +33,24 @@ Pada tugas ini, kalian akan diminta untuk membuat suatu website yang dapat menye
 3. Aplikasi dapat menerima input data dari pengguna berupa **file** dengan format **.csv** serta **jumlah** Cluster yang diinginkan.
    - Template file input dapat diunduh [disini](https://docs.google.com/spreadsheets/d/1FHKvnb7KbQaX8aEFsx9fMyq8OHLKtHJRV4kjFYcApYg/edit?usp=sharing).
 4. Aplikasi dapat memproses input data kemudian membaginya ke dalam Cluster yang sesuai dengan menggunakan algoritma **Kruskal** yang diimplementasikan pada sisi **Backend**.
-5. Aplikasi dapat menyimpan hasil Clustering pada **basis data** (MySQL / PostgreSQL / MongoDB).
-6. Aplikasi dapat menampilkan **visualisasi** data hasil Clustering pada koordinat kartesius.
+5. Batasan Algoritma MST-Kruskal:
+   - `Time limit: 1 second`
+   - `0 <= N <= 1000, N: jumlah data`
+7. Aplikasi dapat menyimpan hasil Clustering pada **basis data** (MySQL / PostgreSQL / MongoDB).
+8. Aplikasi dapat menampilkan **visualisasi** data hasil Clustering pada koordinat kartesius.
    - Data untuk tiap Cluster wajib divisualisasikan dengan warna yang berbeda.
    - Framework untuk visualisasi data dibebaskan.
-7. Aplikasi dapat menampilkan **Log** atau Riwayat hasil Clustering, masing-masing data pada Log ketika di-klik dapat menampilkan hasil visualisasi Cluster-nya.
-8. Aplikasi dapat dijalankan dengan menggunakan **Docker** pada lokal komputer baik untuk Frontend, Backend, maupun Basis Data.
+9. Aplikasi dapat menampilkan **Log** atau Riwayat hasil Clustering, masing-masing data pada Log ketika di-klik dapat menampilkan hasil visualisasi Cluster-nya.
+10. Aplikasi dapat dijalankan dengan menggunakan **Docker** pada lokal komputer baik untuk Frontend, Backend, maupun Basis Data.
    - Buatlah Dockerfile masing-masing untuk Frontend dan Backend agar dapat membuat image pada container.
    - Buatlah script docker-compose untuk menjalankan container Frontend, Backend, dan Basis Data.
-9. Buatlah readme pada masing-masing repository yang menjelaskan:
+11. Buatlah readme pada masing-masing repository yang menjelaskan:
    1. Deskripsi Program
    2. Teknologi dan Framework 
-   3. Penjelasan Algoritma Kruskal (Backend)
-   4. Cara Menggunakan dan Screenshot Hasil Percobaan (Frontend)
-   5. Referensi Belajar
+   3. (Backend) Penjelasan Algoritma Kruskal 
+   4. (Backend) Analisis Kompleksitas Algoritma, nyatakan kesimpulannya dalam notasi big O 
+   5. (Frontend) Cara Menggunakan Web dan Screenshot Hasil Percobaan 
+   6. Referensi Belajar
 
 ## Spesifikasi Bonus (750 poin)
 
