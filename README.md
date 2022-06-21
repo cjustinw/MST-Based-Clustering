@@ -4,7 +4,7 @@ Versi **21 Juni 2022**
 
 Changelog:
 - Batasan algoritma MST-Kruskal di spek wajib
-- Menambahkan analisis kompleksitas algoritma di readme
+- Analisis kompleksitas algoritma di readme
 
 ## Latar Belakang
 
@@ -36,21 +36,21 @@ Pada tugas ini, kalian akan diminta untuk membuat suatu website yang dapat menye
 5. Batasan Algoritma MST-Kruskal:
    - `Time limit: 1 second`
    - `0 <= N <= 1000, N: jumlah data`
-7. Aplikasi dapat menyimpan hasil Clustering pada **basis data** (MySQL / PostgreSQL / MongoDB).
-8. Aplikasi dapat menampilkan **visualisasi** data hasil Clustering pada koordinat kartesius.
+6. Aplikasi dapat menyimpan hasil Clustering pada **basis data** (MySQL / PostgreSQL / MongoDB).
+7. Aplikasi dapat menampilkan **visualisasi** data hasil Clustering pada koordinat kartesius.
    - Data untuk tiap Cluster wajib divisualisasikan dengan warna yang berbeda.
    - Framework untuk visualisasi data dibebaskan.
-9. Aplikasi dapat menampilkan **Log** atau Riwayat hasil Clustering, masing-masing data pada Log ketika di-klik dapat menampilkan hasil visualisasi Cluster-nya.
-10. Aplikasi dapat dijalankan dengan menggunakan **Docker** pada lokal komputer baik untuk Frontend, Backend, maupun Basis Data.
+8. Aplikasi dapat menampilkan **Log** atau Riwayat hasil Clustering, masing-masing data pada Log ketika di-klik dapat menampilkan hasil visualisasi Cluster-nya.
+9. Aplikasi dapat dijalankan dengan menggunakan **Docker** pada lokal komputer baik untuk Frontend, Backend, maupun Basis Data.
    - Buatlah Dockerfile masing-masing untuk Frontend dan Backend agar dapat membuat image pada container.
    - Buatlah script docker-compose untuk menjalankan container Frontend, Backend, dan Basis Data.
-11. Buatlah readme pada masing-masing repository yang menjelaskan:
-   1. Deskripsi Program
-   2. Teknologi dan Framework 
-   3. (Backend) Penjelasan Algoritma Kruskal 
-   4. (Backend) Analisis Kompleksitas Algoritma, nyatakan kesimpulannya dalam notasi big O 
-   5. (Frontend) Cara Menggunakan Web dan Screenshot Hasil Percobaan 
-   6. Referensi Belajar
+10. Buatlah readme pada masing-masing repository yang menjelaskan:
+    1. Deskripsi Program
+    2. Teknologi dan Framework 
+    3. (Backend) Penjelasan Algoritma Kruskal 
+    4. (Backend) Analisis Kompleksitas Algoritma, nyatakan kesimpulannya dalam notasi big O 
+    5. (Frontend) Cara Menggunakan Web dan Screenshot Hasil Percobaan 
+    6. Referensi Belajar
 
 ## Spesifikasi Bonus (750 poin)
 
