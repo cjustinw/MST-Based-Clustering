@@ -35,7 +35,7 @@ Pada tugas ini, kalian akan diminta untuk membuat suatu website yang dapat menye
 4. Aplikasi dapat memproses input data kemudian membaginya ke dalam Cluster yang sesuai dengan menggunakan algoritma **Kruskal** yang diimplementasikan pada sisi **Backend**.
 5. Batasan Algoritma MST-Kruskal:
    - `Time limit: 1 second`
-   - `0 <= N <= 1000, N: jumlah data`
+   - `0 < N <= 1000, N: jumlah data`
 6. Aplikasi dapat menyimpan hasil Clustering pada **basis data** (MySQL / PostgreSQL / MongoDB).
 7. Aplikasi dapat menampilkan **visualisasi** data hasil Clustering pada koordinat kartesius.
    - Data untuk tiap Cluster wajib divisualisasikan dengan warna yang berbeda.
