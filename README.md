@@ -1,10 +1,13 @@
 # MST-Based Clustering
 
-Versi **21 Juni 2022**
+Versi **24 Juni 2022**
 
 Changelog:
 - Batasan algoritma MST-Kruskal di spek wajib
 - Analisis kompleksitas algoritma di readme
+- Spesifikasi docker di spek wajib
+- Cara menjalankan aplikasi di readme
+- Perhatikan pemilihan struktur data serta implementasi algoritma
 
 ## Latar Belakang
 
@@ -36,6 +39,7 @@ Pada tugas ini, kalian akan diminta untuk membuat suatu website yang dapat menye
 5. Batasan Algoritma MST-Kruskal:
    - `Time limit: 1 second`
    - `0 < N <= 1000, N: jumlah data`
+   - Pertimbangkan pemilihan struktur data serta implementasi algoritma agar kompleksitasnya tidak melebihi batasan yang disediakan.
 6. Aplikasi dapat menyimpan hasil Clustering pada **basis data** (MySQL / PostgreSQL / MongoDB).
 7. Aplikasi dapat menampilkan **visualisasi** data hasil Clustering pada koordinat kartesius.
    - Data untuk tiap Cluster wajib divisualisasikan dengan warna yang berbeda.
@@ -43,14 +47,18 @@ Pada tugas ini, kalian akan diminta untuk membuat suatu website yang dapat menye
 8. Aplikasi dapat menampilkan **Log** atau Riwayat hasil Clustering, masing-masing data pada Log ketika di-klik dapat menampilkan hasil visualisasi Cluster-nya.
 9. Aplikasi dapat dijalankan dengan menggunakan **Docker** pada lokal komputer baik untuk Frontend, Backend, maupun Basis Data.
    - Buatlah Dockerfile masing-masing untuk Frontend dan Backend agar dapat membuat image pada container.
-   - Buatlah script docker-compose untuk menjalankan container Frontend, Backend, dan Basis Data.
+   - Buatlah script docker-compose pada repository Backend untuk menjalankan container Backend dan Basis Data.
+   - Buatlah script docker-compose pada repository Frontend untuk menjalankan container Frontend.
+   - Aplikasi pada masing-masing repository dapat dijalankan hanya dengan command `docker-compose up -d`.
+   - Pastikan migrasi basis data dapat berlangsung ketika aplikasi dijalankan.
 10. Buatlah readme pada masing-masing repository yang menjelaskan:
     1. Deskripsi Program
     2. Teknologi dan Framework 
     3. (Backend) Penjelasan Algoritma Kruskal 
     4. (Backend) Analisis Kompleksitas Algoritma, nyatakan kesimpulannya dalam notasi big O 
-    5. (Frontend) Cara Menggunakan Web dan Screenshot Hasil Percobaan 
-    6. Referensi Belajar
+    5. (Frontend) Screenshot Hasil Percobaan 
+    6. Cara menjalankan aplikasi (`docker-compose up -d`)
+    7. Referensi Belajar
 
 ## Spesifikasi Bonus (750 poin)
 
