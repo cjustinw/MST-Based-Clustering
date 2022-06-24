@@ -50,7 +50,7 @@ Pada tugas ini, kalian akan diminta untuk membuat suatu website yang dapat menye
    - Buatlah script docker-compose pada repository Backend untuk menjalankan container Backend dan Basis Data.
    - Buatlah script docker-compose pada repository Frontend untuk menjalankan container Frontend.
    - Aplikasi pada masing-masing repository dapat dijalankan hanya dengan command `docker-compose up -d`.
-   - Pastikan migrasi basis data dapat berlangsung ketika aplikasi dijalankan.
+   - Pastikan migrasi basis data dapat berlangsung ketika aplikasi dijalankan, dapat menggunakan `golang-migrate + docker`.
 10. Buatlah readme pada masing-masing repository yang menjelaskan:
     1. Deskripsi Program
     2. Teknologi dan Framework 
